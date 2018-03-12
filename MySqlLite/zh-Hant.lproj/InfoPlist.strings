@@ -7,3 +7,5 @@
 */
 "CFBundleDisplayName" = "SQLite資料庫";
 "DBInfo" = "資料庫訊息"
+"NSCameraUsageDescription" = "允許拍照權限"
+"NSPhotoLibraryUsageDescription" = "允許開啟相片"

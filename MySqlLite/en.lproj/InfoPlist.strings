@@ -7,3 +7,5 @@
 */
 "CFBundleDisplayName" = "SQLite data";
 "DBInfo" = "DBInfo"
+"NSCameraUsageDescription" = "apply prime to take a photo"
+"NSPhotoLibraryUsageDescription" = "apply photo to change"
