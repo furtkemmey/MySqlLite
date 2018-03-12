@@ -237,8 +237,8 @@ class ViewController: UIViewController {
                 newRow["email"] = textEmail.text
 
                 arrTable.append(newRow)
-                NSLocalizedString("DBInfo", tableName: "InfoPlist.strings", bundle: Bundle.main, value: "", comment: "")
-                let alert = UIAlertController(title: "Insert", message: "Data has been insert", preferredStyle: .alert)
+                let DBInfo = NSLocalizedString("DBInfo", tableName: "InfoPlist.strings", bundle: Bundle.main, value: "", comment: "")
+                let alert = UIAlertController(title: DBInfo, message: "Data has been insert", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
                 self.present(alert, animated: true)
             } else {
