@@ -259,6 +259,13 @@
                         <outlet property="txtGender" destination="gXO-NV-rZM" id="U05-w7-BME"/>
                         <outlet property="txtName" destination="SrO-VV-JTd" id="kK1-hS-vVt"/>
                         <outlet property="txtNo" destination="iRq-lf-CAn" id="UOU-2P-rnX"/>
+                        <outletCollection property="textOutletCollection" destination="iRq-lf-CAn" collectionClass="NSMutableArray" id="FBC-c5-BJR"/>
+                        <outletCollection property="textOutletCollection" destination="SrO-VV-JTd" collectionClass="NSMutableArray" id="ue7-Wi-CTx"/>
+                        <outletCollection property="textOutletCollection" destination="gXO-NV-rZM" collectionClass="NSMutableArray" id="ori-e8-1xi"/>
+                        <outletCollection property="textOutletCollection" destination="tU6-vz-dC2" collectionClass="NSMutableArray" id="JGu-7U-2sQ"/>
+                        <outletCollection property="textOutletCollection" destination="WPu-Ae-ShI" collectionClass="NSMutableArray" id="Tko-YQ-Gdx"/>
+                        <outletCollection property="textOutletCollection" destination="SYb-q7-rJo" collectionClass="NSMutableArray" id="fZN-5k-DRh"/>
+                        <outletCollection property="textOutletCollection" destination="8bL-XM-JPd" collectionClass="NSMutableArray" id="QF1-n0-N2c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

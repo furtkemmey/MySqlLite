@@ -81,6 +81,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textClass: UITextField!
     @IBOutlet weak var textAddress: UITextField!
     @IBOutlet weak var textEmail: UITextField!
+    @IBOutlet var textOutletCollection: [UITextField]!
 
     // MARK: - IBAction
 
@@ -283,6 +284,37 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func btnDelete(_ sender: UIButton) {
+        //delete from students where stu_no='S106'
+        if txtNo.text == "" {
+            let alert = UIAlertController(title: "Cannt delete", message: "ID is empty", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
+            self.present(alert, animated: true)
+            return
+        }
+        if db != nil {
+            let sql = String(format: "delete from students where stu_no='%@'", txtNo.text!).cString(using: .utf8)!
+            //            print("update sql = \(sql)")
+            var statement: OpaquePointer?
+            sqlite3_prepare_v2(db, sql, -1, &statement, nil)
+            if sqlite3_step(statement) == SQLITE_DONE {
+                arrTable.remove(at: currentRow)
+                for txt in textOutletCollection {
+                    txt.text = ""
+                }
+                imgPicture.image = UIImage(named: "DefaultPhoto.jpg")
+                if currentRow - 1 < 0 {
+                    currentRow = 0
+                } else {
+                    currentRow -= 1
+                }
+
+                let alert = UIAlertController(title: "deleted", message: "Data has been deleted", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil ))
+                self.present(alert, animated: true)
+                dicRow = arrTable[currentRow] 
+            }
+            sqlite3_finalize(statement)
+        }
     }
 
 }
