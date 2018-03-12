@@ -10,6 +10,7 @@
 		72439EC020520F0600577522 /* DefaultPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72439EBE20520F0600577522 /* DefaultPhoto.jpg */; };
 		72439EC120520F0600577522 /* lens.png in Resources */ = {isa = PBXBuildFile; fileRef = 72439EBF20520F0600577522 /* lens.png */; };
 		72439EC32052150400577522 /* MyDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 72439EC22052150400577522 /* MyDB.sqlite */; };
+		7260D1D020561B02000F4E11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7260D1D220561B02000F4E11 /* InfoPlist.strings */; };
 		7282F4132048E95C006791EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282F4122048E95C006791EC /* AppDelegate.swift */; };
 		7282F4152048E95C006791EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282F4142048E95C006791EC /* ViewController.swift */; };
 		7282F4182048E95C006791EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7282F4162048E95C006791EC /* Main.storyboard */; };
@@ -22,6 +23,9 @@
 		72439EBF20520F0600577522 /* lens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lens.png; sourceTree = "<group>"; };
 		72439EC22052150400577522 /* MyDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyDB.sqlite; sourceTree = "<group>"; };
 		7260D1CD205614A4000F4E11 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		7260D1D120561B02000F4E11 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7260D1D320561B13000F4E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7260D1D420561BA2000F4E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7282F40F2048E95C006791EC /* MySqlLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySqlLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7282F4122048E95C006791EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7282F4142048E95C006791EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				72439EBD20520F0600577522 /* images */,
 				7282F41B2048E95C006791EC /* LaunchScreen.storyboard */,
 				7282F41E2048E95C006791EC /* Info.plist */,
+				7260D1D220561B02000F4E11 /* InfoPlist.strings */,
 			);
 			path = MySqlLite;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7282F41D2048E95C006791EC /* LaunchScreen.storyboard in Resources */,
+				7260D1D020561B02000F4E11 /* InfoPlist.strings in Resources */,
 				72439EC120520F0600577522 /* lens.png in Resources */,
 				7282F41A2048E95C006791EC /* Assets.xcassets in Resources */,
 				72439EC020520F0600577522 /* DefaultPhoto.jpg in Resources */,
@@ -165,6 +171,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7260D1D220561B02000F4E11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7260D1D120561B02000F4E11 /* zh-Hant */,
+				7260D1D320561B13000F4E11 /* en */,
+				7260D1D420561BA2000F4E11 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		7282F4162048E95C006791EC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

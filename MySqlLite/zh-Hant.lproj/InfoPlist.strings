@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  MySqlLite
+
+  Created by KaiChieh on 12/03/2018.
+  Copyright © 2018 KaiChieh. All rights reserved.
+*/
+"CFBundleDisplayName" = "SQLite資料庫";
+"DBInfo" = "資料庫訊息"
