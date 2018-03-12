@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "class"; ObjectID = "4fD-wj-vq1"; */
+"4fD-wj-vq1.text" = "class";
+
+/* Class = "UIButton"; normalTitle = ">>"; ObjectID = "6YU-b0-vMu"; */
+"6YU-b0-vMu.normalTitle" = ">>";
+
+/* Class = "UIButton"; normalTitle = "<<"; ObjectID = "DcE-sc-Mtd"; */
+"DcE-sc-Mtd.normalTitle" = "<<";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "HDP-o8-jTH"; */
+"HDP-o8-jTH.text" = "Name";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "IGR-gt-82l"; */
+"IGR-gt-82l.text" = "Email";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "Rs3-uf-8GY"; */
+"Rs3-uf-8GY.text" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "Take"; ObjectID = "TCh-8H-EON"; */
+"TCh-8H-EON.normalTitle" = "Take";
+
+/* Class = "UIButton"; normalTitle = "Del"; ObjectID = "U2C-44-4j0"; */
+"U2C-44-4j0.normalTitle" = "Del";
+
+/* Class = "UIButton"; normalTitle = "Photo Library"; ObjectID = "V2m-an-NPk"; */
+"V2m-an-NPk.normalTitle" = "Photo Library";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "gnn-xG-k7n"; */
+"gnn-xG-k7n.text" = "Phone";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "naf-0u-g7B"; */
+"naf-0u-g7B.text" = "學號";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "oxr-oq-euu"; */
+"oxr-oq-euu.normalTitle" = ">";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "rP8-uw-1fO"; */
+"rP8-uw-1fO.normalTitle" = "<";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "shl-ZF-Zu9"; */
+"shl-ZF-Zu9.text" = "Address";
+
+/* Class = "UIButton"; normalTitle = "Query"; ObjectID = "wOe-fL-mKp"; */
+"wOe-fL-mKp.normalTitle" = "Query";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "y18-KO-NB0"; */
+"y18-KO-NB0.normalTitle" = "Update";
+
+/* Class = "UIButton"; normalTitle = "Insert"; ObjectID = "z1h-Qh-rbw"; */
+"z1h-Qh-rbw.normalTitle" = "Insert";
+
+/* Class = "UILabel"; text = "Picture"; ObjectID = "z5p-gn-qzK"; */
+"z5p-gn-qzK.text" = "Picture";
